@@ -1,0 +1,19 @@
+[project]
+name = "data440-automation-workflows-decorators"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "True Yuen", email = "114016235+TrueOrFalse25@users.noreply.github.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "jupyter>=1.1.1",
+]
+
+[project.scripts]
+data440-automation-workflows-decorators = "data440_automation_workflows_decorators:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
